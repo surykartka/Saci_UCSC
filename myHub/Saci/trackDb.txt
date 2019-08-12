@@ -9,17 +9,51 @@ color 170,100,0
 bigDataUrl bbi/combined_features.bb
 html ../trackDescriptions/genes
 
-track TFB_WT_r1
-longLabel MW001 TFB r1 ChIP-seq
-shortLabel TFB_WT_r1
+track TFB
 group ChIP-seq
-priority 10
-visibility pack
-autoScale on
+container multiWig
+shortLabel TFB
+longLabel TFB
 type bigWig
-color 200,10,10
-bigDataUrl bbi/TFB_WT_r1.bw
-html ../trackDescriptions/ChIP-seq
+#viewLimits 0:160
+visibility full
+aggregate transparentOverlay
+graphTypeDefault points
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 1.3
+configurable on
+autoScale on
+
+track TFB.WT.bw
+longLabel MW001 TFB CSAW-normalised  ChIP-seq
+shortLabel TFB WT
+group ChIP-seq
+parent TFB
+visibility pack
+type bigWig
+color 70,162,225
+bigDataUrl bbi/TFB.WT.bw
+
+track TFB.dTFS1.bw
+longLabel delta-TFS1 TFB CSAW-normalised  ChIP-seq
+shortLabel TFB dTFS1
+group ChIP-seq
+parent TFB
+visibility pack
+type bigWig
+color 203,75,21
+bigDataUrl bbi/TFB.dTFS1.bw
+
+track TFB.rpo8-S90A.bw
+longLabel rpo8-S90A TFB CSAW-normalised  ChIP-seq
+shortLabel TFB rpo8-S90A
+group ChIP-seq
+parent TFB
+visibility pack
+type bigWig
+color 234,230,32
+bigDataUrl bbi/TFB.rpo8-S90A.bw
 
 track Rpo47
 group ChIP-seq
@@ -30,6 +64,7 @@ type bigWig
 #viewLimits 0:160
 visibility full
 aggregate transparentOverlay
+graphTypeDefault points
 showSubtrackColorOnUi on
 windowingFunction maximum
 priority 1.2
@@ -45,7 +80,6 @@ visibility pack
 type bigWig
 color 70,162,225
 bigDataUrl bbi/Rpo47.WT.bw
-html ../trackDescriptions/ChIP-seq
 
 track Rpo47.dTFS1.bw
 longLabel delta-TFS1 Rpo4/7 CSAW-normalised  ChIP-seq
@@ -56,7 +90,6 @@ visibility pack
 type bigWig
 color 203,75,21
 bigDataUrl bbi/Rpo47.dTFS1.bw
-html ../trackDescriptions/ChIP-seq
 
 track Rpo47.rpo8-S90A.bw
 longLabel rpo8-S90A Rpo4/7 CSAW-normalised  ChIP-seq
@@ -65,7 +98,6 @@ group ChIP-seq
 parent Rpo47
 visibility pack
 type bigWig
-color 192,95,152
+color 234,230,32
 bigDataUrl bbi/Rpo47.rpo8-S90A.bw
-html ../trackDescriptions/ChIP-seq
 
