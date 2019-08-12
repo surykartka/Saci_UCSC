@@ -5,7 +5,7 @@ group genes
 priority 100
 visibility pack
 itemRgb On
-type bigBed 9 +
+type bigBed 10 +
 bigDataUrl bbi/combined_features.bb
 html ../trackDescriptions/genes
 
