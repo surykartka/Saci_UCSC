@@ -10,10 +10,9 @@ bigDataUrl bbi/combined_features.bb
 
 track TFB_changes
 group CSAW
-container superTrack
+superTrack on show
 shortLabel TFB_changes
 longLabel TFB_changes
-type bigWig
 #viewLimits 0:160
 visibility full
 aggregate transparentOverlay
@@ -41,10 +40,9 @@ bigDataUrl bbi/combined.TFB.peaks.WT.rpo8.CSAW.logFC.FDR005.bb
 
 track Rpo47_changes
 group CSAW
-container superTrack
+superTrack on show
 shortLabel Rpo47_changes
 longLabel Rpo47_changes
-type bigWig
 #viewLimits 0:160
 visibility full
 aggregate transparentOverlay
