@@ -12,7 +12,7 @@ track TFB_changes
 group CSAW
 superTrack on show
 shortLabel TFB_changes
-longLabel TFB_changes
+longLabel TFB changes detected by CSAW at FDR 0.05
 #viewLimits 0:160
 visibility full
 aggregate transparentOverlay
@@ -29,7 +29,7 @@ group CSAW
 parent TFB_changes
 type bigBed 3
 bigDataUrl bbi/combined.TFB.peaks.WT.dtfs1.CSAW.logFC.FDR005.bb
-visibility full
+visibility squish
 
 track TFB.rpo8
 longLabel TFB changes rpo8-S90A v MW001
@@ -38,13 +38,13 @@ group CSAW
 parent TFB_changes
 type bigBed 3
 bigDataUrl bbi/combined.TFB.peaks.WT.rpo8.CSAW.logFC.FDR005.bb
-visibility full
+visibility squish
 
 track Rpo47_changes
 group CSAW
 superTrack on show
 shortLabel Rpo47_changes
-longLabel Rpo47_changes
+longLabel Rpo47 changes detected by CSAW at FDR 0.05
 #viewLimits 0:160
 visibility full
 aggregate transparentOverlay
@@ -61,7 +61,7 @@ group CSAW
 parent Rpo47_changes
 type bigBed 3
 bigDataUrl bbi/Rpo47.WT.dtfs1.CSAW.clusters_FDR005_bestLogFC.bb
-visibility full
+visibility squish
 
 track Rpo47.rpo8
 longLabel Rpo4/7 changes rpo8-S90A v MW001
@@ -70,7 +70,7 @@ group CSAW
 parent Rpo47_changes
 type bigBed 3
 bigDataUrl bbi/Rpo47.WT.rpo8.CSAW.clusters_FDR005_bestLogFC.bb
-visibility full
+visibility squish
 
 
 track TFB
