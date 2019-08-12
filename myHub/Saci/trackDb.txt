@@ -62,7 +62,7 @@ track Rpo47.rpo8-S90A.bw
 longLabel rpo8-S90A Rpo4/7 CSAW-normalised  ChIP-seq
 shortLabel Rpo4/7 rpo8-S90A
 group ChIP-seq
-priority 10
+parent Rpo47
 visibility pack
 type bigWig
 color 192,95,152
