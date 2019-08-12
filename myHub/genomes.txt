@@ -1,7 +1,7 @@
 genome Saci
 trackDb Saci/trackDb.txt
 groups groups.txt
-description ChIP-seq
+description DSM639
 twoBitPath Saci/SaciDSM639.2bit
 organism Saccharolobus acidocaldarius
 defaultPos SaciDSM639:1-100000
