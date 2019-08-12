@@ -4,7 +4,7 @@ groups groups.txt
 description DSM639
 twoBitPath Saci/SaciDSM639.2bit
 organism Saccharolobus acidocaldarius
-defaultPos SaciDSM639:1-100000
+defaultPos SaciDSM639:46880-50000
 orderKey 4700
 scientificName Saccharolobus acidocaldarius
 htmlPath Saci/description.html
