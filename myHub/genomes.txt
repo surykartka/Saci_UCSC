@@ -1,0 +1,11 @@
+genome Saci
+trackDb Saci/trackDb.txt
+groups groups.txt
+description Saci ChIP-seq tracks
+twoBitPath Saci/SaciDSM639.2bit
+organism Saccharolobus acidocaldarius
+defaultPos chr1:1-100000
+orderKey 4700
+scientificName Saccharolobus acidocaldarius
+htmlPath Saci/description.html
+

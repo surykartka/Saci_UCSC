@@ -1,0 +1,10 @@
+track genes
+longLabel Genes and transcriptome features from NCBI and Sorek
+shortLabel Genes
+group genes
+priority 100
+visibility pack
+type bigBed 9 +
+color 170,100,0
+bigDataUrl bbi/combined_features.bb
+html ../trackDescriptions/genes
