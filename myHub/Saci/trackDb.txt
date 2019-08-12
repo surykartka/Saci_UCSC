@@ -15,7 +15,56 @@ shortLabel TFB_WT_r1
 group ChIP-seq
 priority 10
 visibility pack
+autoScale on
 type bigWig
 color 200,10,10
 bigDataUrl bbi/TFB_WT_r1.bw
 html ../trackDescriptions/ChIP-seq
+
+track Rpo47
+container multiWig
+shortLabel major
+longLabel major
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 1.2
+configurable on
+autoScale on
+
+track Rpo47.WT.bw
+longLabel MW001 Rpo4/7 CSAW-normalised  ChIP-seq
+shortLabel Rpo4/7 WT
+group ChIP-seq
+parent Rpo47
+visibility pack
+type bigWig
+color 200,10,10
+bigDataUrl bbi/Rpo47.WT.bw
+html ../trackDescriptions/ChIP-seq
+
+track Rpo47.dTFS1.bw
+longLabel delta-TFS1 Rpo4/7 CSAW-normalised  ChIP-seq
+shortLabel Rpo4/7 dTFS1
+group ChIP-seq
+parent Rpo47
+visibility pack
+type bigWig
+color 200,30,30
+bigDataUrl bbi/Rpo47.dTFS1.bw
+html ../trackDescriptions/ChIP-seq
+
+track Rpo47.rpo8-S90A.bw
+longLabel rpo8-S90A Rpo4/7 CSAW-normalised  ChIP-seq
+shortLabel Rpo4/7 rpo8-S90A
+group ChIP-seq
+priority 10
+visibility pack
+type bigWig
+color 200,20,20
+bigDataUrl bbi/Rpo47.rpo8-S90A.bw
+html ../trackDescriptions/ChIP-seq
+
