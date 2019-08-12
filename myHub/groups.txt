@@ -2,3 +2,8 @@ name genes
 label Genes
 priority 1
 defaultIsClosed 0
+
+name ChIP-seq
+label ChIP-seq
+priority 2
+defaultIsClosed 1
