@@ -33,7 +33,7 @@ with open(out, 'w') as f:
 		elif 'TSS' in tab[2]:
 			col = '255,127,14'
 			gene = desc.split('Gene=')[1].split(';')[0]
-			print(tab[0], tab[3], tab[4], 'TSS', 1000, tab[6], tab[3], tab[4], col, extra, sep='\t', file=f)
+			print(tab[0], tab[3], tab[4], tab[2][0]+'TSS', 1000, tab[6], tab[3], tab[4], col, extra, sep='\t', file=f)
 		elif 'terminator' in tab[2]:
 			col = '214,39,40'
 			gene = desc.split('Gene=')[1].split(';')[0]
