@@ -10,7 +10,7 @@ bigDataUrl bbi/combined_features.bb
 
 track TFB_changes
 group CSAW
-container multiWig
+container superTrack
 shortLabel TFB_changes
 longLabel TFB_changes
 type bigWig
@@ -28,7 +28,7 @@ longLabel TFB changes dTFS1 v MW001
 shortLabel TFB.dTFS1
 group CSAW
 parent TFB_changes
-type bigBed 3 +
+type bigBed 3
 bigDataUrl bbi/combined.TFB.peaks.WT.dtfs1.CSAW.logFC.FDR005.bb
 
 track TFB.rpo8
@@ -36,12 +36,12 @@ longLabel TFB changes rpo8-S90A v MW001
 shortLabel TFB.rpo8
 group CSAW
 parent TFB_changes
-type bigBed 3 +
+type bigBed 3
 bigDataUrl bbi/combined.TFB.peaks.WT.rpo8.CSAW.logFC.FDR005.bb
 
 track Rpo47_changes
 group CSAW
-container multiWig
+container superTrack
 shortLabel Rpo47_changes
 longLabel Rpo47_changes
 type bigWig
@@ -59,7 +59,7 @@ longLabel Rpo4/7 changes dTFS1 v MW001
 shortLabel Rpo47.dTFS1
 group CSAW
 parent Rpo47_changes
-type bigBed 3 +
+type bigBed 3
 bigDataUrl bbi/Rpo47.WT.dtfs1.CSAW.clusters_FDR005_bestLogFC.bb
 
 track Rpo47.rpo8
@@ -67,7 +67,7 @@ longLabel Rpo4/7 changes rpo8-S90A v MW001
 shortLabel Rpo47.rpo8
 group CSAW
 parent Rpo47_changes
-type bigBed 3 +
+type bigBed 3
 bigDataUrl bbi/Rpo47.WT.rpo8.CSAW.clusters_FDR005_bestLogFC.bb
 
 
