@@ -4,6 +4,7 @@ shortLabel Genes
 group genes
 priority 100
 visibility pack
+itemRgb On
 type bigBed 9 +
 bigDataUrl bbi/combined_features.bb
 html ../trackDescriptions/genes
