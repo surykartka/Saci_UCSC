@@ -7,7 +7,69 @@ visibility pack
 itemRgb On
 type bigBed 9 +
 bigDataUrl bbi/combined_features.bb
-html ../trackDescriptions/genes
+
+track TFB_changes
+group CSAW
+container multiWig
+shortLabel TFB_changes
+longLabel TFB_changes
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 85
+configurable on
+autoScale on
+
+track TFB.dTFS1
+longLabel TFB changes dTFS1 v MW001
+shortLabel TFB.dTFS1
+group CSAW
+parent TFB_changes
+type bigBed 3 +
+bigDataUrl bbi/combined.TFB.peaks.WT.dtfs1.CSAW.logFC.FDR005.bb
+
+track TFB.rpo8
+longLabel TFB changes rpo8-S90A v MW001
+shortLabel TFB.rpo8
+group CSAW
+parent TFB_changes
+type bigBed 3 +
+bigDataUrl bbi/combined.TFB.peaks.WT.rpo8.CSAW.logFC.FDR005.bb
+
+track Rpo47_changes
+group CSAW
+container multiWig
+shortLabel Rpo47_changes
+longLabel Rpo47_changes
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 75
+configurable on
+autoScale on
+
+track Rpo47.dTFS1
+longLabel Rpo4/7 changes dTFS1 v MW001
+shortLabel Rpo47.dTFS1
+group CSAW
+parent Rpo47_changes
+type bigBed 3 +
+bigDataUrl bbi/Rpo47.WT.dtfs1.CSAW.clusters_FDR005_bestLogFC.bb
+
+track Rpo47.rpo8
+longLabel Rpo4/7 changes rpo8-S90A v MW001
+shortLabel Rpo47.rpo8
+group CSAW
+parent Rpo47_changes
+type bigBed 3 +
+bigDataUrl bbi/Rpo47.WT.rpo8.CSAW.clusters_FDR005_bestLogFC.bb
+
 
 track TFB
 group ChIP-seq
@@ -21,7 +83,7 @@ aggregate transparentOverlay
 graphTypeDefault points
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 1.3
+priority 90
 configurable on
 autoScale on
 
@@ -67,7 +129,7 @@ aggregate transparentOverlay
 graphTypeDefault points
 showSubtrackColorOnUi on
 windowingFunction maximum
-priority 1.2
+priority 80
 configurable on
 autoScale on
 
