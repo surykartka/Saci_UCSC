@@ -165,3 +165,50 @@ type bigWig
 color 234,230,32
 bigDataUrl bbi/Rpo47.rpo8-S90A.bw
 
+track Input
+group ChIP-seq
+container multiWig
+shortLabel Input
+longLabel Input
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate transparentOverlay
+graphTypeDefault points
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 80
+configurable on
+autoScale on
+
+track input.WT.bw
+longLabel MW001 input CSAW-normalised  ChIP-seq
+shortLabel Input WT
+group ChIP-seq
+parent Input
+visibility pack
+type bigWig
+color 70,162,225
+bigDataUrl bbi/input.WT.bw
+
+track input.dTFS1.bw
+longLabel delta-TFS1 input CSAW-normalised  ChIP-seq
+shortLabel Input dTFS1
+group ChIP-seq
+parent Input
+visibility pack
+type bigWig
+color 203,75,21
+bigDataUrl bbi/input.dTFS1.bw
+
+track input.rpo8-S90A.bw
+longLabel rpo8-S90A input CSAW-normalised  ChIP-seq
+shortLabel Input rpo8-S90A
+group ChIP-seq
+parent Input
+visibility pack
+type bigWig
+color 234,230,32
+bigDataUrl bbi/input.rpo8-S90A.bw
+
+
