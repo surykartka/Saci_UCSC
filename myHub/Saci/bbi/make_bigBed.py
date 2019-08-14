@@ -30,6 +30,13 @@ with open(out, 'w') as f:
 			col = '44,160,44'
 			xid = desc.split('Parent=')[1].split(';')[0]
 			print(tab[0], tab[3], tab[4], id2name[xid], 1000, tab[6], tab[3], tab[4], col, extra, sep='\t', file=f)
+		elif tab[2] == 'gene' and tab[1] == 'TCOL':
+			if 'gbkey=ORF' in desc:
+				col = '31,119,180'
+			elif 'gbkey=sRNA' in desc:
+				col = '44,160,44'
+			xid = desc.split('Name=')[1].split(';')[0]
+			print(tab[0], tab[3], tab[4], xid, 1000, tab[6], tab[3], tab[4], col, extra, sep='\t', file=f)			
 		elif 'TSS' in tab[2]:
 			col = '255,127,14'
 			gene = desc.split('Gene=')[1].split(';')[0]
