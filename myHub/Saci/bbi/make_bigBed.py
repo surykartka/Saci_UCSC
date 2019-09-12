@@ -49,5 +49,5 @@ with open(out, 'w') as f:
 os.system('sort -k1,1 -k2,2n %s > tmp2' % out)
 #os.system('echo "track name=Genes type=bedDetail" > tmp1')
 #os.system('cat tmp1 tmp2 > tmp3')
-os.system('bedToBigBed -extraIndex=name -type=bed9+1 -tab tmp2 chrom.sizes %s' % out)
+os.system('bedToBigBed -as=combined_features.as -extraIndex=name -type=bed9+1 -tab tmp2 chrom.sizes %s' % out)
 os.system('rm tmp2')
