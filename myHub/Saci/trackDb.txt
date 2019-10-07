@@ -18,11 +18,11 @@ longLabel DNA-RNA duplex deltaG
 visibility full
 showSubtrackColorOnUi on
 windowingFunction maximum
-color 100,100,100
 priority 100
 configurable on
 autoScale on
 type bigWig
+color 100,100,100
 bigDataUrl bbi/dG.bw
 
 
