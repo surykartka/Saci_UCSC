@@ -22,6 +22,7 @@ color 100,100,100
 priority 100
 configurable on
 autoScale on
+type bigWig
 bigDataUrl bbi/dG.bw
 
 
