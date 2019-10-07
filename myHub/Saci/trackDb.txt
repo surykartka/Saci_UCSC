@@ -9,19 +9,7 @@ type bigBed 9 +
 bigDataUrl bbi/combined_features.bb
 searchIndex name,geneProduct
 
-track deltaG
-group deltaG
-shortLabel deltaG
-longLabel DNA-RNA duplex deltaG
-type bigWig
-#viewLimits 0:160
-visibility full
-windowingFunction maximum
-priority 100
-configurable on
-autoScale on
-color 100,100,100
-bigDataUrl bbi/dG.bw
+
 
 
 track TFB_changes
@@ -227,5 +215,14 @@ visibility pack
 type bigWig
 color 234,230,32
 bigDataUrl bbi/input.rpo8-S90A.bw
+
+track deltaG
+group ChIP-seq
+shortLabel deltaG
+longLabel DNA-RNA duplex deltaG
+type bigWig
+visibility full
+color 100,100,100
+bigDataUrl bbi/dG.bw
 
 
