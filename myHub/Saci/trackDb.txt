@@ -9,6 +9,22 @@ type bigBed 9 +
 bigDataUrl bbi/combined_features.bb
 searchIndex name,geneProduct
 
+track deltaG
+group deltaG
+superTrack on show
+shortLabel deltaG
+longLabel DNA-RNA duplex deltaG
+#viewLimits 0:160
+visibility full
+showSubtrackColorOnUi on
+windowingFunction maximum
+color 100,100,100
+priority 100
+configurable on
+autoScale on
+bigDataUrl bbi/dG.bw
+
+
 track TFB_changes
 group CSAW
 superTrack on show
