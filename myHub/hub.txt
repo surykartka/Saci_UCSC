@@ -4,6 +4,3 @@ longLabel ChIP-seq experiments
 genomesFile genomes.txt
 email surykartka@gmail.com
 descriptionUrl demo.html
-
-# http://genome-test.cse.ucsc.edu/~hiram/hubs/Plants/hub.txt
-# http://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=http://genome-test.cse.ucsc.edu/~hiram/hubs/Plants/hub.txt&genome=araTha1&position=chr1:1499918-1500081
