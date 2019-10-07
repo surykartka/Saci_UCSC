@@ -10,8 +10,6 @@ bigDataUrl bbi/combined_features.bb
 searchIndex name,geneProduct
 
 
-
-
 track TFB_changes
 group CSAW
 superTrack on show
@@ -218,8 +216,10 @@ bigDataUrl bbi/input.rpo8-S90A.bw
 
 track deltaG
 shortLabel deltaG
+group deltaG
 longLabel DNA-RNA duplex deltaG
 type bigWig
+autoScale on
 visibility full
 color 100,100,100
 bigDataUrl bbi/dG.bw
