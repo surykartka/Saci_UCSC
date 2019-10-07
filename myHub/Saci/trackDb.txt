@@ -11,13 +11,11 @@ searchIndex name,geneProduct
 
 track deltaG
 group deltaG
-superTrack on show
 shortLabel deltaG
 longLabel DNA-RNA duplex deltaG
 type bigWig
 #viewLimits 0:160
 visibility full
-showSubtrackColorOnUi on
 windowingFunction maximum
 priority 100
 configurable on
