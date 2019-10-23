@@ -224,4 +224,12 @@ visibility full
 color 100,100,100
 bigDataUrl bbi/dG.bw
 
-
+track deltaG_melting
+shortLabel deltaG_melting
+group deltaG
+longLabel DNA-RNA duplex deltaG by MELTING
+type bigWig
+autoScale on
+visibility full
+color 100,100,100
+bigDataUrl bbi/dG_melting.bw
