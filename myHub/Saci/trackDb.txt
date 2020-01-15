@@ -167,6 +167,16 @@ type bigWig
 color 234,230,32
 bigDataUrl bbi/Rpo47.rpo8-S90A.bw
 
+track Rpo47.dElf1.bw
+longLabel dElf1 Rpo4/7 CSAW-normalised  ChIP-seq
+shortLabel Rpo4/7 dElf1
+group ChIP-seq
+parent Rpo47
+visibility pack
+type bigWig
+color 44,162,95
+bigDataUrl bbi/Rpo47.delf1.bw
+
 track Input
 group ChIP-seq
 container multiWig
