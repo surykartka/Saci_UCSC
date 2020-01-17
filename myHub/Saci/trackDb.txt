@@ -74,6 +74,15 @@ type bigBed 3
 bigDataUrl bbi/Rpo47.WT.rpo8.CSAW.clusters_FDR005_bestLogFC.bb
 visibility squish
 
+track Rpo47.dElf1
+longLabel Rpo4/7 changes dElf1 v MW001
+shortLabel Rpo47.dElf1
+group CSAW
+parent Rpo47_changes
+type bigBed 3
+bigDataUrl bbi/Rpo47.WT.delf1.CSAW.clusters_FDR005.bb
+visibility squish
+
 
 track TFB
 group ChIP-seq
